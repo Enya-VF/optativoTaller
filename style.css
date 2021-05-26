@@ -1,0 +1,308 @@
+body{
+    background-color: #bbb;
+}
+
+.cuadro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: relative;
+    width: 364px;
+    height: 162px;
+    top: 109px;
+    left: 148px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.pr{
+    margin-bottom: 29px;
+}
+
+:root{
+    --num1: 4;
+
+}
+
+.frame1{
+    position: static;
+    width: 364px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+
+    /* Red */
+
+    background: #EB5757;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    border-radius: 10px 10px 0 0;
+}
+
+.frame2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 21px;
+
+    position: static;
+    width: 363px;
+    height: 39px;
+    left: 0px;
+    top: 77px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.frame3{
+    position: static;
+    width: 364px;
+    height: 36px;
+    left: 0px;
+    top: 126px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.elipse{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 8px;
+    top: 20px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+.e1{
+    position: absolute;
+    width: 10px;
+    height: 19px;
+    left: 19px;
+    top: 26px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.saas{
+    position: static;
+    width: 84px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.agenda{
+    position: absolute;
+    width: 162px;
+    height: 19px;
+    left: 52px;
+    top: 25px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+/* .vector{
+    position: absolute;
+    left: 10.01%;
+    right: 10%;
+    top: 8.65%;
+    bottom: 8.65%;
+
+    background: #FFFFFF;
+} */
+
+.frame4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 127px;
+    height: 30px;
+    right: 16px;
+    top: 19px;
+
+}
+
+.frame5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 84px;
+    height: 19px;
+    left: 0px;
+    top: 5.5px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 13px;
+}
+
+.frame6{
+    position: static;
+    width: 30px;
+    height: 30px;
+    left: 97px;
+    top: 0px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 13px;
+}
+
+.descripcion{
+    position: static;
+    width: 321px;
+    height: 19px;
+    left: 21px;
+    top: 10px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Text Black */
+
+    color: #2F2F2F;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.carga{
+    position: absolute;
+    width: 76px;
+    height: 16px;
+    left: 19px;
+    bottom: 11px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    /* Light Text */
+
+    color: #888888;
+}
+
+.fecha{
+    position: absolute;
+    width: 58px;
+    height: 16px;
+    right: 17px;
+    bottom: 11px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-align: right;
+
+    /* Light Text */
+
+    color: #888888;
+}
+
+.linea{
+    position: absolute;
+    width: 330px;
+    height: 0px;
+    left: 18px;
+    bottom: 36px;
+
+    /* Border */
+
+    border: 1px solid #DBDBDB;
+}
+
+.cuadroE{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: relative;
+    width: 364px;
+    height: 162px;
+    margin-bottom: 29px;
+}
